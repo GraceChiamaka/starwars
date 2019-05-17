@@ -106,10 +106,9 @@ class App extends Component {
             </header>
             <main className="mt-5">
                 <h1 className="text-center">
-                    Welcome to star wars confederation       
+                    Welcome to star wars confederation directory       
                 </h1>
                 <h5>I am one with force <br /> The force is with me</h5>
-                <h5>Star Wars directory</h5>
                 <div className="container-fluid">
                     <Tabs defaultActiveKey="planets" fill variant="tabs" transition={false} id="noanim-tab-example">
                         <Tab eventKey="planets" title="Planets">

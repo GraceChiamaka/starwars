@@ -19,17 +19,17 @@ const starships = (props) => {
 
                         <div className="planet-back">
                             <h1 className="text-center">{props.name}</h1>
-                            <p>Model: {props.model}</p>
-                            <p>MGLT: {props.mglt} /hr  </p>
-                            <p>Capacity: {props.capacity}</p> 
-                            <p>Price: {props.price} credits</p>
-                            <p>Manufacturer: {props.maker}</p>
-                            <p>Passengers: {props.passengers}</p>
-                            <p>drive rating: {props.rating}</p>
-                            <p>Class: {props.class}</p>
-                            <p>Consumables: {props.consume}</p>
-                            <p>Crew: {props.crew}</p>
-                            <p>Atmosphering Speed{props.speed}</p>
+                            <p className='mb-1'>Model: {props.model}</p>
+                            <p className='mb-1'>MGLT: {props.mglt} /hr  </p>
+                            <p className='mb-1'>Capacity: {props.capacity}</p> 
+                            <p className='mb-1'>Price: {props.price} credits</p>
+                            <p className='mb-1'>Manufacturer: {props.maker}</p>
+                            <p className='mb-1'>Passengers: {props.passengers}</p>
+                            <p className='mb-1'>drive rating: {props.rating}</p>
+                            <p className='mb-1'>Class: {props.class}</p>
+                            <p className='mb-1'>Consumables: {props.consume}</p>
+                            <p className='mb-1'>Crew: {props.crew}</p>
+                            <p className='mb-1'>Atmosphering Speed{props.speed}</p>
 
                         </div>
                     </div>
